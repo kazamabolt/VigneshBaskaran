@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullstack Java Developer | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of a Fullstack Java Developer specializing in Spring Boot, React, and Cloud technologies.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="background-gradient"></div>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Vignesh<span class="highlight">Baskaran</span></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="greeting">Hello, I'm</span>
+                    <h1 class="title">Vignesh <span class="highlight">Baskaran</span></h1>
+                    <p class="subtitle">Fullstack Java Developer specializing in scalable web applications using Spring
+                        Boot, React and Microservices architectures.</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View Work</a>
+                        <a href="assets/VigneshResume.pdf" class="btn btn-outline" download>Get Resume</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-block">
+                        <div class="code-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <pre><code><span class="keyword">public class</span> <span class="class-name">fullStackDeveloper</span> {
+    <span class="keyword">private</span> String name = <span class="string">"Vignesh Baskaran"</span>;
+    <span class="keyword">private</span> String[] skills = {
+        <span class="string">"Java Spring Boot"</span>,
+        <span class="string">"React JS"</span>,
+        <span class="string">"SQL / NoSQL"</span>
+    };
+
+    <span class="keyword">public void</span> <span class="function">buildAwesomeApps</span>() {
+        <span class="comment">// Let's code!</span>
+        System.out.println(<span class="string">"Hello Everyone!"</span>);
+    }
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <h2 class="section-title">About <span class="highlight">Me</span></h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I am a Java Developer with 3.5 years of experience building high-performance, scalable
+                            backend systems and enterprise applications. I have a strong background in modernizing
+                            legacy applications like Java 8→17, EJB → Spring Boot, JMS → Kafka.</p>
+                        <p>Experienced across both E-commerce and Insurance domains, I have contributed to platform
+                            enhancements that improved application stability and reduced critical defects. My expertise
+                            lies in Core Java, Spring Boot, Microservices, REST APIs, and event-driven architectures.
+                        </p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <h3>3.5+ Years</h3>
+                            <p>Experience</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fa-solid fa-server"></i>
+                            <h3>Backend</h3>
+                            <p>Java & Spring Boot</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fa-solid fa-sitemap"></i>
+                            <h3>Architecture</h3>
+                            <p>Microservices & Event-driven</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section experience">
+            <div class="container">
+                <h2 class="section-title">Professional <span class="highlight">Experience</span></h2>
+                <div class="experience-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>System Engineer</h3>
+                                <span class="company">TATA CONSULTANCY SERVICES (TCS)</span>
+                                <span class="date">July 2022 – Present</span>
+                            </div>
+                            <div class="timeline-body">
+                                <h4>Insurance Domain</h4>
+                                <ul>
+                                    <li>Developed new backend features based on business requirements and user stories.
+                                    </li>
+                                    <li>Migrated the application from Java 8 → Java 17, improving performance and code
+                                        quality.</li>
+                                    <li>Modernized the platform by converting EJB modules to Spring Boot microservices,
+                                        enhancing modularity and deployment speed.</li>
+                                    <li>Replaced JMS queues with Kafka, improving throughput, scalability, and fault
+                                        tolerance.</li>
+                                    <li>Used Spring Data JPA & Hibernate for database operations and query optimization.
+                                    </li>
+                                </ul>
+                                <h4 class="mt-2">E-commerce Domain</h4>
+                                <ul>
+                                    <li>Contributed to migrating the application from a monolithic architecture to a
+                                        microservices-based architecture.</li>
+                                    <li>Worked on development stories and defect fixes as part of continuous enhancement
+                                        cycles.</li>
+                                    <li>Maintained, optimized, and performed bug fixes on APIs across Production and UAT
+                                        environments.</li>
+                                    <li>Monitored API performance and stability in Production using Datadog dashboards
+                                        and post-release validation checks.</li>
+                                    <li>Collaborated closely with cross-functional teams in Agile sprints to ensure
+                                        on-time delivery.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Horizontal Career Timeline -->
+                <div class="career-timeline-section mt-5">
+                    <h3 class="subsection-title">Career <span class="highlight">Progression</span></h3>
+                    <div class="career-timeline">
+                        <!-- Step 1 -->
+                        <div class="timeline-step">
+                            <div class="timeline-badge">2022</div>
+                            <div class="timeline-card">
+                                <div class="step-header">
+                                    <h4>Assistant System Engineer</h4>
+                                    <span class="step-date">July 2022</span>
+                                </div>
+                                <p class="step-role">Developer</p>
+                                <div class="step-details">
+                                    <p><strong>Skills:</strong> Core Java, HTML, CSS, JS</p>
+                                    <p><strong>Domain:</strong> E-commerce</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="timeline-step">
+                            <div class="timeline-badge">2023</div>
+                            <div class="timeline-card">
+                                <div class="step-header">
+                                    <h4>System Engineer</h4>
+                                    <span class="step-date">July 2023</span>
+                                </div>
+                                <p class="step-role">Developer</p>
+                                <div class="step-details">
+                                    <p><strong>Skills:</strong> Java, Spring Boot, React, REST API</p>
+                                    <p><strong>Domain:</strong> E-commerce</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="timeline-step">
+                            <div class="timeline-badge">2024</div>
+                            <div class="timeline-card">
+                                <div class="step-header">
+                                    <h4>System Engineer</h4>
+                                    <span class="step-date">July 2024</span>
+                                </div>
+                                <p class="step-role">Developer</p>
+                                <div class="step-details">
+                                    <p><strong>Skills:</strong> Java, Spring Boot, JPA Data</p>
+                                    <p><strong>Domain:</strong> Insurance</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <div class="container">
+                <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+                <div class="skills-grid">
+                    <!-- Backend -->
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item"><i class="fa-brands fa-java"></i> Java 8/17</div>
+                            <div class="skill-item"><i class="fa-solid fa-leaf"></i> Spring Boot</div>
+                            <div class="skill-item"><i class="fa-solid fa-layer-group"></i> Spring MVC</div>
+                            <div class="skill-item"><i class="fa-solid fa-database"></i> Hibernate/JPA</div>
+                            <div class="skill-item"><i class="fa-solid fa-network-wired"></i> Kafka</div>
+                            <div class="skill-item"><i class="fa-solid fa-envelope"></i> JMS</div>
+                        </div>
+                    </div>
+                    <!-- Frontend -->
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item"><i class="fa-brands fa-react"></i> React JS</div>
+                            <div class="skill-item"><i class="fa-brands fa-html5"></i> HTML5 & CSS3</div>
+                            <div class="skill-item"><i class="fa-brands fa-js"></i> JavaScript</div>
+                        </div>
+                    </div>
+                    <!-- Database & Tools -->
+                    <div class="skill-category">
+                        <h3>Database & Tools</h3>
+                        <div class="skill-items">
+                            <div class="skill-item"><i class="fa-solid fa-database"></i> SQL</div>
+                            <div class="skill-item"><i class="fa-brands fa-jenkins"></i> Jenkins</div>
+                            <div class="skill-item"><i class="fa-brands fa-git-alt"></i> Git/Bitbucket</div>
+                            <div class="skill-item"><i class="fa-solid fa-chart-line"></i> Datadog</div>
+                            <div class="skill-item"><i class="fa-solid fa-chart-area"></i> Splunk</div>
+                            <div class="skill-item"><i class="fa-brands fa-jira"></i> Jira</div>
+                            <div class="skill-item"><i class="fa-solid fa-paper-plane"></i> Postman</div>
+                        </div>
+                    </div>
+                    <!-- Architecture -->
+                    <div class="skill-category">
+                        <h3>Architecture</h3>
+                        <div class="skill-items">
+                            <div class="skill-item"><i class="fa-solid fa-cubes"></i> Microservices</div>
+                            <div class="skill-item"><i class="fa-solid fa-cube"></i> Monolithic</div>
+                            <div class="skill-item"><i class="fa-solid fa-bolt"></i> Event-driven</div>
+                            <div class="skill-item"><i class="fa-solid fa-network-wired"></i> RESTful API</div>
+                            <div class="skill-item"><i class="fa-brands fa-google"></i> GCP Certified</div>
+                            <div class="skill-item"><i class="fa-brands fa-docker"></i> Docker</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects">
+            <div class="container">
+                <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/Insurance.png" alt="Insurance Platform">
+                        </div>
+                        <div class="project-info">
+                            <h3>Insurance Platform Modernization</h3>
+                            <p>Migrated legacy EJB/JMS system to Spring Boot Microservices and Kafka. Improved
+                                performance by 20-30%.</p>
+                            <div class="project-tags">
+                                <span>Java 17</span>
+                                <span>Spring Boot</span>
+                                <span>Kafka</span>
+                                <span>Microservices</span>
+                                <span>GitHub</span>
+                            </div>
+                            <button class="btn-sm btn-details" onclick="toggleDetails(this)">View Details</button>
+                            <div class="project-details hidden">
+                                <ul>
+                                    <li>Modernized a legacy Java EE application by rebuilding it from scratch using
+                                        Spring Boot.</li>
+                                    <li>Implemented an event-driven architecture with Apache Kafka to improve system
+                                        performance, scalability, and stability.</li>
+                                    <li>Replaced SQL and stored procedures with Spring Data JPA & Hibernate, enhancing
+                                        code maintainability and database efficiency.</li>
+                                    <li>Worked in Agile sprints using Jira, monitored APIs, optimized performance
+                                        regularly, and performed RCA for P1 production issues in collaboration with the
+                                        support team.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/E-commerce.png" alt="E-commerce Microservices">
+                        </div>
+                        <div class="project-info">
+                            <h3>E-commerce Microservices</h3>
+                            <p>Transformed monolithic architecture to microservices. Optimized APIs for high traffic
+                                production environment.</p>
+                            <div class="project-tags">
+                                <span>Java</span>
+                                <span>Microservices</span>
+                                <span>REST API</span>
+                                <span>Datadog</span>
+                                <span>BitBucket</span>
+                            </div>
+                            <button class="btn-sm btn-details" onclick="toggleDetails(this)">View Details</button>
+                            <div class="project-details hidden">
+                                <ul>
+                                    <li>Led backend development efforts in modernizing a 20+ year-old legacy system,
+                                        transforming a monolithic architecture into microservices with zero downtime.
+                                    </li>
+                                    <li>Delivered backend features by implementing user stories, resolving defects, and
+                                        supporting continuous improvements.</li>
+                                    <li>Actively monitored applications post-release and resolved critical production
+                                        issues during the 7-day hypercare phase.</li>
+                                    <li>Worked collaboratively with cross-functional teams using Agile methodologies to
+                                        ensure timely and stable releases.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section education">
+            <div class="container">
+                <h2 class="section-title">Education & <span class="highlight">Certifications</span></h2>
+                <div class="education-grid">
+                    <div class="edu-card">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <h3>Bachelor of Engineering</h3>
+                        <p class="edu-school">IFET College of Engineering, Anna University</p>
+                        <p class="edu-year">2018 – 2022</p>
+                        <p class="edu-detail">Computer Science</p>
+                    </div>
+                    <div class="edu-card">
+                        <i class="fa-solid fa-cloud"></i>
+                        <h3>Google Cloud Certified</h3>
+                        <p class="edu-school">Associate Cloud Engineer</p>
+                        <p class="edu-detail">Validated expertise in GCP infrastructure and services.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+                <div class="contact-content">
+                    <p>Interested in working together or have a question? Feel free to reach out!</p>
+                    <a href="mailto:vignesh.bsk@gmail.com" class="contact-email">
+                        <i class="fa-solid fa-envelope"></i> vignesh.bsk@gmail.com
+                    </a>
+                    <div class="social-links">
+                        <a href="https://github.com/kazamabolt" class="social-icon" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/vignesh-baskaran209/" class="social-icon"
+                            target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://leetcode.com/u/Novabolt/" class="social-icon" target="_blank"><i
+                                class="fa-solid fa-code"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Vignesh Baskaran. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
