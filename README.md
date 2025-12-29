@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio! This repository hosts the source code for my portfolio website, showcasing my journey as a Fullstack Java Developer specializing in building scalable, high-performance web applications.
 
-## 🚀 About Me
+## 🚀 About Me!
 
 I am a passionate **Fullstack Java Developer** with over **3.5 years of experience** in the industry. My expertise lies in modernizing legacy systems and building robust backend architectures using **Spring Boot**, **Microservices**, and **Event-Driven Architectures**.
 
